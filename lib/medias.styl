@@ -1,0 +1,39 @@
+$screen-sm-min = 768px
+$nav-height-lg = 6em
+// 
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm-min)
+	nav 
+		height $nav-height-lg
+		.container
+			.logo
+				flex-grow 2
+				display flex
+				justify-content flex-start
+				img
+					height 4em
+	.banner
+		padding-top $nav-height-lg
+		height 60vh
+		.container
+			.icons
+				padding-bottom 7em
+				&-inroute
+					div
+						width 10em
+			
+	section.gpss
+		height 25em
+		.gps
+			position absolute
+			top -5em
+			
+			img
+				max-width 40em
+
+/* Medium devices (desktops, 992px and up) */
+// @media (min-width: @screen-md-min)
+
+/* Large devices (large desktops, 1200px and up) */
+// @media (min-width: @screen-lg-min) 
