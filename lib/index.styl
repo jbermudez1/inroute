@@ -133,28 +133,36 @@ section
 				li
 					img
 						max-width 5em
+.video
+	background-color lightgray
+	height 25em
 .opendrive
 	background-color blue
 	background-image url('../img/opendrive-bg.jpg')
 	background-size cover
-	div
-		background-linear-gradient(left, rgba(107,45,159, 0.2), 10%, rgba(29,152,206, 0.2), 55%)
-
-		p
+	height 30em
+	color white
+	.gradient
+		height 100%
+		padding-top 3em
+		padding-bottom 3em
+		background-linear-gradient(left, rgba(107,45,159, 0.5), 20%, rgba(29,152,206, 0.7), 85%)
+		p.title
 			color white
 			text-align center
+			font-size 1.7em
 		.opendrive-logo
 			max-width 12em
-		.row
-			.opendrive-features
-				ul
-					list-style none
-					li
-						img
-							max-width 5em
-			
+.feature
+	width 5em
+.subtitle
+	font-size 1.7em
 
-		
+footer
+	background-image url('../img/fondofooter.png')
+	color white
+	.logo
+		width 10em
 		
 @import 'medias.styl'
 
