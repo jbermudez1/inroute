@@ -1,4 +1,7 @@
 $screen-sm-min = 768px
+$screen-md-min = 992px
+$screen-lg-min = 1200px
+
 $nav-height-lg = 6em
 // 
 
@@ -22,18 +25,44 @@ $nav-height-lg = 6em
 				&-inroute
 					div
 						width 10em
-			
-	section.gpss
-		height 25em
-		.gps
-			position absolute
-			top -5em
-			
-			img
-				max-width 40em
+	.telematic
+
+		.tomtom-img
+
+		.row
+			.features
+				ul
+					list-style none
+					li 
+						display flex
+						align-items center
+						
+						img
+							margin-right 1em
+							max-width 5em
+				
 
 /* Medium devices (desktops, 992px and up) */
-// @media (min-width: @screen-md-min)
+@media (min-width: $screen-md-min)
+	section.gps-container
+		height 25em
+		position relative
+		.gps
+			position absolute
+			top -10em
+			width 50%
+			
+			img
+				max-width 35em
+		.gps-msg
+			position absolute
+			width 50%
+			right 0
 
 /* Large devices (large desktops, 1200px and up) */
-// @media (min-width: @screen-lg-min) 
+@media (min-width: $screen-lg-min)
+	section.gps-container
+			.gps
+				img
+					max-width 45em
+

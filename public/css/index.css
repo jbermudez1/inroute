@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,100,700");
+.img-responsive {
+  display: inline-block;
+}
 body {
   background-color: #fff;
   font-family: 'Roboto', sans-serif;
@@ -221,8 +224,95 @@ nav .container .hmenu ul li {
 .banner .container .icons-inroute div p {
   text-align: center;
 }
+.gps-container .gps-msg p {
+  text-align: center;
+  font-size: 1.5em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  font-style: italic;
+  color: #8f8f8f;
+}
+.benefits {
+  text-align: center;
+}
+.benefits div p {
+  font-size: 2em;
+}
+.benefits div p span {
+  font-size: 0.5em;
+  color: #808080;
+}
 section {
   position: relative;
+}
+.telematic {
+  padding-top: 4em;
+  text-align: center;
+}
+.telematic p {
+  text-align: center;
+  font-size: 1.5em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  font-style: italic;
+  color: #8f8f8f;
+}
+.telematic .tomtom-img {
+  max-width: 25em;
+}
+.telematic .row .features ul {
+  list-style: none;
+}
+.telematic .row .features ul li img {
+  max-width: 5em;
+}
+.opendrive {
+  background-color: #00f;
+  background-image: url("../img/opendrive-bg.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+.opendrive div {
+  background-color: rgba(107,45,159,0.2);
+  background-image: -webkit--webkit-linear-gradient(left, rgba(107,45,159,0.2) 10%, rgba(29,152,206,0.2) 55%);
+  background-image: -webkit--moz-linear-gradient(left, rgba(107,45,159,0.2) 10%, rgba(29,152,206,0.2) 55%);
+  background-image: -webkit--o-linear-gradient(left, rgba(107,45,159,0.2) 10%, rgba(29,152,206,0.2) 55%);
+  background-image: -webkit--ms-linear-gradient(left, rgba(107,45,159,0.2) 10%, rgba(29,152,206,0.2) 55%);
+  background-image: -webkit-linear-gradient(to right, rgba(107,45,159,0.2) 10%, rgba(29,152,206,0.2) 55%);
+  background-image: -moz--webkit-linear-gradient(left, rgba(107,45,159,0.2) 10%, rgba(29,152,206,0.2) 55%);
+  background-image: -moz--moz-linear-gradient(left, rgba(107,45,159,0.2) 10%, rgba(29,152,206,0.2) 55%);
+  background-image: -moz--o-linear-gradient(left, rgba(107,45,159,0.2) 10%, rgba(29,152,206,0.2) 55%);
+  background-image: -moz--ms-linear-gradient(left, rgba(107,45,159,0.2) 10%, rgba(29,152,206,0.2) 55%);
+  background-image: -moz-linear-gradient(to right, rgba(107,45,159,0.2) 10%, rgba(29,152,206,0.2) 55%);
+  background-image: -ms--webkit-linear-gradient(left, rgba(107,45,159,0.2) 10%, rgba(29,152,206,0.2) 55%);
+  background-image: -ms--moz-linear-gradient(left, rgba(107,45,159,0.2) 10%, rgba(29,152,206,0.2) 55%);
+  background-image: -ms--o-linear-gradient(left, rgba(107,45,159,0.2) 10%, rgba(29,152,206,0.2) 55%);
+  background-image: -ms--ms-linear-gradient(left, rgba(107,45,159,0.2) 10%, rgba(29,152,206,0.2) 55%);
+  background-image: -ms-linear-gradient(to right, rgba(107,45,159,0.2) 10%, rgba(29,152,206,0.2) 55%);
+  background-image: -o--webkit-linear-gradient(left, rgba(107,45,159,0.2) 10%, rgba(29,152,206,0.2) 55%);
+  background-image: -o--moz-linear-gradient(left, rgba(107,45,159,0.2) 10%, rgba(29,152,206,0.2) 55%);
+  background-image: -o--o-linear-gradient(left, rgba(107,45,159,0.2) 10%, rgba(29,152,206,0.2) 55%);
+  background-image: -o--ms-linear-gradient(left, rgba(107,45,159,0.2) 10%, rgba(29,152,206,0.2) 55%);
+  background-image: -o-linear-gradient(to right, rgba(107,45,159,0.2) 10%, rgba(29,152,206,0.2) 55%);
+  background-image: -webkit-linear-gradient(left, rgba(107,45,159,0.2) 10%, rgba(29,152,206,0.2) 55%);
+  background-image: -moz-linear-gradient(left, rgba(107,45,159,0.2) 10%, rgba(29,152,206,0.2) 55%);
+  background-image: -o-linear-gradient(left, rgba(107,45,159,0.2) 10%, rgba(29,152,206,0.2) 55%);
+  background-image: -ms-linear-gradient(left, rgba(107,45,159,0.2) 10%, rgba(29,152,206,0.2) 55%);
+  background-image: linear-gradient(to right, rgba(107,45,159,0.2) 10%, rgba(29,152,206,0.2) 55%);
+}
+.opendrive div p {
+  color: #fff;
+  text-align: center;
+}
+.opendrive div .opendrive-logo {
+  max-width: 12em;
+}
+.opendrive div .row .opendrive-features ul {
+  list-style: none;
+}
+.opendrive div .row .opendrive-features ul li img {
+  max-width: 5em;
 }
 @media (min-width: 768px) {
   nav {
@@ -262,14 +352,52 @@ section {
   .banner .container .icons-inroute div {
     width: 10em;
   }
-  section.gpss {
+  .telematic .tomtom-img .features ul,
+  .telematic .row .features ul {
+    list-style: none;
+  }
+  .telematic .tomtom-img .features ul li,
+  .telematic .row .features ul li {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: box;
+    display: flex;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -o-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  .telematic .tomtom-img .features ul li img,
+  .telematic .row .features ul li img {
+    margin-right: 1em;
+    max-width: 5em;
+  }
+}
+@media (min-width: 992px) {
+  section.gps-container {
     height: 25em;
+    position: relative;
   }
-  section.gpss .gps {
+  section.gps-container .gps {
     position: absolute;
-    top: -5em;
+    top: -10em;
+    width: 50%;
   }
-  section.gpss .gps img {
-    max-width: 40em;
+  section.gps-container .gps img {
+    max-width: 35em;
+  }
+  section.gps-container .gps-msg {
+    position: absolute;
+    width: 50%;
+    right: 0;
+  }
+}
+@media (min-width: 1200px) {
+  section.gps-container .gps img {
+    max-width: 45em;
   }
 }

@@ -10,6 +10,8 @@ background-linear-gradient(startPoint, startColor, startInterval, endColor, endI
 	background-image linear-gradient(startPoint, startColor startInterval, endColor endInterval)
 
 $nav-height = 3em
+.img-responsive
+	display inline-block
 body
 	background-color white
 	font-family 'Roboto', sans-serif
@@ -89,9 +91,71 @@ nav
 						max-width 3em
 					p
 						text-align center
-
+.gps-container
+	.gps-msg
+		p 
+			text-align center
+			font-size 1.5em
+			padding-top 2em
+			padding-bottom 2em
+			font-style italic
+			color #8f8f8f
+.benefits
+	text-align center
+	div
+		p
+			font-size 2em 
+			span
+				font-size 0.5em
+				color gray
+			
 section
+	
 	position relative
+	
+.telematic
+	padding-top 4em
+	text-align center
+	p 
+		text-align center
+		font-size 1.5em
+		padding-top 2em
+		padding-bottom 2em
+		font-style italic
+		color #8f8f8f
+		
+	.tomtom-img
+		max-width 25em
+	.row
+		.features
+			ul
+				list-style none
+				li
+					img
+						max-width 5em
+.opendrive
+	background-color blue
+	background-image url('../img/opendrive-bg.jpg')
+	background-size cover
+	div
+		background-linear-gradient(left, rgba(107,45,159, 0.2), 10%, rgba(29,152,206, 0.2), 55%)
+
+		p
+			color white
+			text-align center
+		.opendrive-logo
+			max-width 12em
+		.row
+			.opendrive-features
+				ul
+					list-style none
+					li
+						img
+							max-width 5em
+			
+
+		
+		
 @import 'medias.styl'
 
 
