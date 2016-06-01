@@ -339,10 +339,10 @@ section {
 .form p {
   text-align: center;
 }
-.form .group {
+.form .form-groups {
   text-align: center;
 }
-.form .group input {
+.form .form-groups input {
   padding: 8px 50px;
   margin: 5px 0;
   -webkit-box-sizing: border-box;
@@ -351,12 +351,14 @@ section {
   -webkit-border-radius: 0.5em;
   border-radius: 0.5em;
 }
-.form .group textarea {
+.form .form-groups textarea {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  -webkit-border-radius: 0.5em;
+  border-radius: 0.5em;
 }
-.form .group button {
+.form .form-groups button {
   background-color: #00a651;
   border: none;
   padding: 8px 105px;
@@ -369,13 +371,18 @@ section {
 }
 footer {
   background-image: url("../img/fondofooter.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
   color: #fff;
 }
 footer text-align center .logo {
   width: 10em;
 }
-footer text-align center .webfleet-logo {
-  width: 10em;
+.row {
+  margin-top: 5em;
+  margin-bottom: 5em;
+  text-align: center;
 }
 @media (min-width: 768px) {
   nav {
@@ -460,15 +467,30 @@ footer text-align center .webfleet-logo {
   }
   .developer .developer-features .developer-text {
     text-align: left;
-    width: 60em;
-  }
-  .developer .developer-features .developer-img {
-    max-width: 25em;
-    float: right;
   }
 }
 @media (min-width: 1200px) {
   section.gps-container .gps img {
     max-width: 45em;
+  }
+  section.container.form .row .form-groups input {
+    padding: 8px 120px;
+    margin: 5px 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-border-radius: 0.5em;
+    border-radius: 0.5em;
+  }
+  section.container.form .row .form-groups textarea {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 8px 80px;
+    margin-bottom: 0.5em;
+    float: right;
+  }
+  section.container.form .row .form-groups button {
+    float: right;
   }
 }
