@@ -1,9 +1,15 @@
+$screen-xs-max = 768px
 $screen-sm-min = 768px
 $screen-md-min = 992px
 $screen-lg-min = 1200px
 
 $nav-height-lg = 6em
 // 
+/* Small device (Smartphones, 768px less) */
+@media(max-width: $screen-xs-max)
+	.opendrive
+		height 75em
+
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: $screen-sm-min)
@@ -40,6 +46,8 @@ $nav-height-lg = 6em
 						img
 							margin-right 1em
 							max-width 5em
+	.opendrive
+		height 40em
 	
 				
 

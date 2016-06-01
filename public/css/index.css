@@ -354,6 +354,11 @@ footer text-align center .logo {
   margin-bottom: 5em;
   text-align: center;
 }
+@media (max-width: 768px) {
+  .opendrive {
+    height: 75em;
+  }
+}
 @media (min-width: 768px) {
   nav {
     height: 6em;
@@ -415,6 +420,9 @@ footer text-align center .logo {
   .telematic .row .features ul li img {
     margin-right: 1em;
     max-width: 5em;
+  }
+  .opendrive {
+    height: 40em;
   }
 }
 @media (min-width: 992px) {
