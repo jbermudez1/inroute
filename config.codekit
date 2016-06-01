@@ -85,6 +85,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/public\/img\/bigstock-Delivery-Van-11478776.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4.57899e+06,
+		"inputAbbreviatedPath": "\/public\/img\/bigstock-Delivery-Van-11478776.jpg",
+		"outputAbbreviatedPath": "\/public\/img\/bigstock-Delivery-Van-11478776.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/public\/img\/EC5D7C9D4D37CE25.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -173,6 +184,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/public\/img\/iStock_000021714970Medium-deliveryvan.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.85884e+06,
+		"inputAbbreviatedPath": "\/public\/img\/iStock_000021714970Medium-deliveryvan.jpg",
+		"outputAbbreviatedPath": "\/public\/img\/iStock_000021714970Medium-deliveryvan.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/istock_delivery_shipment_truck.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.29328e+06,
+		"inputAbbreviatedPath": "\/public\/img\/istock_delivery_shipment_truck.jpg",
+		"outputAbbreviatedPath": "\/public\/img\/istock_delivery_shipment_truck.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/public\/img\/logo-tomtom.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -191,6 +224,17 @@
 		"initialSize": 460082,
 		"inputAbbreviatedPath": "\/public\/img\/opendrive-bg.jpg",
 		"outputAbbreviatedPath": "\/public\/img\/opendrive-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/Royal-Mail-van-009.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 459876,
+		"inputAbbreviatedPath": "\/public\/img\/Royal-Mail-van-009.jpg",
+		"outputAbbreviatedPath": "\/public\/img\/Royal-Mail-van-009.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
