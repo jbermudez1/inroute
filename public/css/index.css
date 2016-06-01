@@ -339,26 +339,7 @@ section {
 .form p {
   text-align: center;
 }
-.form .form-groups {
-  text-align: center;
-}
-.form .form-groups input {
-  padding: 8px 50px;
-  margin: 5px 0;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-border-radius: 0.5em;
-  border-radius: 0.5em;
-}
-.form .form-groups textarea {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-border-radius: 0.5em;
-  border-radius: 0.5em;
-}
-.form .form-groups button {
+.form .group button {
   background-color: #00a651;
   border: none;
   padding: 8px 105px;
