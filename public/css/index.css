@@ -95,6 +95,9 @@ nav .container .hmenu ul {
 nav .container .hmenu ul li {
   padding: 1em;
 }
+nav .container .hmenu ul li a {
+  color: #fff;
+}
 .banner {
   background-image: url("../img/banner-fondo.jpg");
   height: 50vh;
@@ -224,6 +227,9 @@ nav .container .hmenu ul li {
 .banner .container .icons-inroute div p {
   text-align: center;
 }
+.second-view {
+  height: 30vh !important;
+}
 .gps-container .gps-msg p {
   text-align: center;
   font-size: 1.5em;
@@ -339,6 +345,9 @@ section {
 .form p {
   text-align: center;
 }
+.form h3 {
+  text-align: center;
+}
 footer {
   background-image: url("../img/fondofooter.png");
   -webkit-background-size: cover;
@@ -357,6 +366,9 @@ footer text-align center .logo {
 @media (max-width: 768px) {
   .opendrive {
     height: 75em;
+  }
+  .telematic .row .features {
+    margin-top: 5em;
   }
 }
 @media (min-width: 768px) {
