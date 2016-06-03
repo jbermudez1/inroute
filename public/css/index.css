@@ -363,6 +363,27 @@ footer text-align center .logo {
   margin-bottom: 5em;
   text-align: center;
 }
+.benefits-section .row div ul {
+  text-align: left;
+}
+.sectors-section .row div ul {
+  text-align: left;
+}
+.function-section .row div p {
+  text-align: left;
+}
+.function-section .row div ul {
+  text-align: left;
+}
+.function-section .row div h3 {
+  text-align: left;
+}
+.function-section .row div h2 {
+  color: #b8e986;
+}
+.function-section .row div h4 {
+  color: #52990c;
+}
 @media (max-width: 768px) {
   .opendrive {
     height: 75em;

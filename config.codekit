@@ -22,6 +22,26 @@
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 0
 		},
+	"\/lib\/function.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/lib\/function.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/lib\/function.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/lib\/function.jade",
+		"outputAbbreviatedPath": "\/public\/function.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 0
+		},
 	"\/lib\/index.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -76,6 +96,26 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
+	"\/lib\/sectors.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/lib\/sectors.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/lib\/sectors.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/lib\/sectors.jade",
+		"outputAbbreviatedPath": "\/public\/sectors.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 0
+		},
 	"\/public\/benefits.html": {
 		"fileType": 8192,
 		"ignore": 1,
@@ -90,6 +130,15 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/public\/css\/index.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/function.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/function.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -215,6 +264,105 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/public\/img\/industries.courier-express.eu.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13573,
+		"inputAbbreviatedPath": "\/public\/img\/industries.courier-express.eu.jpg",
+		"outputAbbreviatedPath": "\/public\/img\/industries.courier-express.eu.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/industries.emergency.eu.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14933,
+		"inputAbbreviatedPath": "\/public\/img\/industries.emergency.eu.jpg",
+		"outputAbbreviatedPath": "\/public\/img\/industries.emergency.eu.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/industries.health-care.eu.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14787,
+		"inputAbbreviatedPath": "\/public\/img\/industries.health-care.eu.jpg",
+		"outputAbbreviatedPath": "\/public\/img\/industries.health-care.eu.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/industries.insurance-telematics.eu.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14282,
+		"inputAbbreviatedPath": "\/public\/img\/industries.insurance-telematics.eu.jpg",
+		"outputAbbreviatedPath": "\/public\/img\/industries.insurance-telematics.eu.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/industries.long-haulage.eu.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17185,
+		"inputAbbreviatedPath": "\/public\/img\/industries.long-haulage.eu.jpg",
+		"outputAbbreviatedPath": "\/public\/img\/industries.long-haulage.eu.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/industries.people-transport.eu.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15414,
+		"inputAbbreviatedPath": "\/public\/img\/industries.people-transport.eu.jpg",
+		"outputAbbreviatedPath": "\/public\/img\/industries.people-transport.eu.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/industries.sales-fleet.eu.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13734,
+		"inputAbbreviatedPath": "\/public\/img\/industries.sales-fleet.eu.jpg",
+		"outputAbbreviatedPath": "\/public\/img\/industries.sales-fleet.eu.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/industries.service-maintenance.eu.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15459,
+		"inputAbbreviatedPath": "\/public\/img\/industries.service-maintenance.eu.jpg",
+		"outputAbbreviatedPath": "\/public\/img\/industries.service-maintenance.eu.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/industries.utilities.eu.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19868,
+		"inputAbbreviatedPath": "\/public\/img\/industries.utilities.eu.jpg",
+		"outputAbbreviatedPath": "\/public\/img\/industries.utilities.eu.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/public\/img\/iStock_000021714970Medium-deliveryvan.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -303,11 +451,86 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/public\/img\/tomtom-105.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 27882,
+		"inputAbbreviatedPath": "\/public\/img\/tomtom-105.jpg",
+		"outputAbbreviatedPath": "\/public\/img\/tomtom-105.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/tomtom-105.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21805,
+		"inputAbbreviatedPath": "\/public\/img\/tomtom-105.png",
+		"outputAbbreviatedPath": "\/public\/img\/tomtom-105.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/tomtom-530.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 32473,
+		"inputAbbreviatedPath": "\/public\/img\/tomtom-530.jpg",
+		"outputAbbreviatedPath": "\/public\/img\/tomtom-530.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/tomtom-530.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 43596,
+		"inputAbbreviatedPath": "\/public\/img\/tomtom-530.png",
+		"outputAbbreviatedPath": "\/public\/img\/tomtom-530.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/tomtom-7250.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 56025,
+		"inputAbbreviatedPath": "\/public\/img\/tomtom-7250.jpg",
+		"outputAbbreviatedPath": "\/public\/img\/tomtom-7250.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/tomtom-7250.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 33975,
+		"inputAbbreviatedPath": "\/public\/img\/tomtom-7250.png",
+		"outputAbbreviatedPath": "\/public\/img\/tomtom-7250.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/public\/index.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/public\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/sectors.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/sectors.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
