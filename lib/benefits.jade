@@ -15,107 +15,65 @@ html
 					h1 Beneficios
 					p.lead Inrout tiene una solución para tu flotilla.
 		
-		section.container
-			div.row.benefits
-				div.col-xs-6.col-sm-2.col-sm-offset-1
-					p Seguridad
-						br
-						span de los conductores
-					img.img-responsive(src="img/seguridad.svg")
-				div.col-xs-6.col-sm-2
-					p Ahorro
-						br
-						span de fondos
-					img.img-responsive(src="img/Ahorro(icono).svg")
-				div.col-xs-6.col-sm-2
-					p Localización
-						br
-						span de vehículos
-					img.img-responsive(src="img/localización(icono).svg")
-				div.col-xs-6.col-sm-2
-					p Informes
-						br
-						span de gestión
-					img.img-responsive(src="img/informes(icono).svg")
-				div.col-xs-6.col-sm-2
-					p Integración
-						br
-						span de elementos
-					img.img-responsive(src="img/Integración(icono).svg")
-		section.container.telematic
-			img.tomtom-img(src="img/logo-tomtom.png")
-			p TomTom Telematics es la unidad de negocio dedicada a las soluciones de administración de flotillas, telemática para vehículos y sevicios para el vehículo conectado.
-			div.row
-				div.col-md-6.video
-				div.col-md-6.features
+		section.container.benefits-section
+			div.row		
+				div.col-sm-4
+					h3 Más control
 					ul
-						li 
-							img(src="img/mantenimiento.svg")
-							p Mantenimietos preventivos de sus unidades
-						li 
-							img(src="img/informes.svg")
-							p Informes de desempeño y rendimiento
-						li 
-							img(src="img/tareas.svg")
-							p Asignación de tareas
-						
-
-		section.opendrive
-			div.gradient
-				div.container
-					p.title Mejore continuamente el rendimiento de su flota al gestionar de forma activa el comportamiento de los conductores
-						br
-						br
-
-						div.information.row.text-center
-							div.col-sm-6.text-center
-								img.opendrive-logo(src="img/optidrivelogo.svg")
-								p.subtitle Juntos mejoramos el estilo de conducción
-							div.col-sm-2
-								img.feature(src="img/infoprevia.svg")
-								p Información previa
-							div.col-sm-2
-								img.feature(src="img/infoviaje.svg")
-								p Información durante el viaje
-							div.col-sm-2
-								img.feature(src="img/infopostviaje.svg")
-								p Información post-viaje
-								button.btn.btn-success(type='submit') Ver más
-
-
-		section.container.developer 
-			h3 A la medida de tus necesidades
+						li Sepa siempre dónde se encuentran sus vehículos y empleados: obtenga información sobre el tiempo de conduccón, comportamiento, tiempo en el emplazamiento, paradas y horas de trabajo.
+						li Sea transparente y consiga que sus conductores sean más responsables.
+				div.col-sm-4
+					h3 Menos costes
+					ul
+						li Reduzca los cstes de combustible, mantenimiento y seguros
+						li Los conductores serán más cuidadosos al utilizar el vehículo
+				div.col-sm-4
+					h3 Más tiempo facturable
+					ul
+						li Mejore el uso que hace de su tiempo con herramientas automatizadas como el diario de a bordo y el registro de las horas de trabajo
+						li Envío del conductor más cercano a los eventos nuevos
+						li Utilice el navegador PRO de TomTom para llegar antes a su destino evitando atascos y ahorrando tiempo que podría emplear en buscar la dirección correcta.
+		section.container.benefits-icons
 			div.row
-				div.col-sm-6.developer-features
-					h3.developer-text Lorem ipsum
-					p.developer-text Duis tristique ex finibus rutrum rutrum. Sed suscipit mauris lacus, et fringilla eros pellentesque a. Duis lobortis sed ipsum eu condimentum. Phasellus elementum tristique nisl ac pellentesque.
-				div.col-sm-6.developer-features
-					img.img-responsive(src="img/image004.png")
+				div.col-xs-6.col-sm-4.col-md-2.col-md-offset-1
+					img(src="../img/seguridad_benefits.svg")
+					h5 SEGURIDAD
+				div.col-xs-6.col-sm-4.col-md-2
+					img(src="../img/informes_benefits.svg")
+					h5 INFORMES DE DESEMPEÑO
+				div.col-xs-6.col-sm-4.col-md-2
+					img(src="../img/rastreo_benefits.svg")
+					h5 RASTREO VEHICULAR
+			
+				div.col-xs-6.col-sm-4.col-md-2
+					img(src="../img/alerta_benefits.svg")
+					h5 ALERTAS
+				div.col-xs-6.col-sm-4.col-md-2
+					img(src="../img/tiempo_benefits.svg")
+					h5 MENOS TIEMPO
 			div.row
-				div.col-sm-6.developer-features
-					h3.developer-text Lorem ipsum
-					p.developer-text Duis tristique ex finibus rutrum rutrum. Sed suscipit mauris lacus, et fringilla eros pellentesque a. Duis lobortis sed ipsum eu condimentum. Phasellus elementum tristique nisl ac pellentesque
-				div.col-sm-6.developer-features
-					img.img-responsive(src="img/image002.png")
-					
+				div.col-xs-6.col-sm-4.col-md-2.col-md-offset-1
+					img(src="../img/tareas_benefits.svg")
+					h5 ASIGNACIÓN DE TAREAS
+			
+				div.col-xs-6.col-sm-4.col-md-2
+					img(src="../img/integración_benefits.svg")
+					h5 INTEGRACIÓN
+				div.col-xs-6.col-sm-4.col-md-2
+					img(src="../img/combustible_benefits.svg")
+					h5 AHORRO DE COMBUSTIBLE
+				div.col-xs-6.col-sm-4.col-md-2
+					img(src="../img/navegación_benefits.svg")
+					h5 NAVEGACIÓN
+			
+				div.col-xs-6.col-sm-4.col-md-2
+					img(src="../img/mantenimiento_benefits.svg")
+					h5 MANTENIMIENTOS PREVENTIVOS
 
-		section.container.form
-			h3 Contáctanos te daremos más detalles
-			div.row.group
-				div.col-sm-6
-					div.form-group
-						input.form-control(type='text', placeholder='Nombre completo')
-					div.form-group
-						input.form-control(type='text', placeholder='Compañía')
-					div.form-group
-						input.form-control(type='text', placeholder='Ubicación')
-				div.col-sm-6
-					div.form-group
-						textarea.form-control(name='comment' placeholder='Su mensaje', cols=33 rows=4)
-					div.form-group
-						div.col-sm-offset-2.col-sm-10
-							button.btn.btn-success(type='submit') Enviar
 
+
+
+	
 		footer.inroute
 			div.container
 				div.row
