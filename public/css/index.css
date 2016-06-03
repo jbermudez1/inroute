@@ -365,6 +365,7 @@ footer text-align center .logo {
 }
 .benefits-section .row div ul {
   text-align: left;
+  list-style-image: url("../img/icon_benefits.svg");
 }
 .sectors-section .row div ul {
   text-align: left;
