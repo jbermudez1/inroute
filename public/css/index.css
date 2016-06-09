@@ -99,7 +99,7 @@ nav .container .hmenu ul li a {
   color: #fff;
 }
 .banner {
-  background-image: url("../img/banner-fondo.jpg");
+  background-image: url("../img/Royal-Mail-van-009.jpg");
   height: 50vh;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -260,7 +260,7 @@ section {
   font-size: 1.5em;
   padding-top: 2em;
   padding-bottom: 2em;
-  font-style: italic;
+  font-weigth: 20;
   color: #8f8f8f;
 }
 .telematic .tomtom-img {
@@ -323,6 +323,7 @@ section {
 }
 .opendrive .gradient .opendrive-logo {
   max-width: 12em;
+  margin-bottom: 1em;
 }
 .feature {
   width: 5em;
