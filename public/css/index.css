@@ -387,8 +387,14 @@ footer text-align center .logo {
   color: #52990c;
 }
 @media (max-width: 768px) {
+  .banner .title h1 {
+    font-size: 2em;
+  }
   .opendrive {
     height: 75em;
+  }
+  .telematic .tomtom-img {
+    width: 20em;
   }
   .telematic .row .features {
     margin-top: 5em;
@@ -483,6 +489,9 @@ footer text-align center .logo {
   }
 }
 @media (min-width: 1200px) {
+  .banner .title h1 {
+    font-size: 5em;
+  }
   section.gps-container .gps img {
     max-width: 45em;
   }

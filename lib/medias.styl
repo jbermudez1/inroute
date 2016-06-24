@@ -7,9 +7,15 @@ $nav-height-lg = 6em
 // 
 /* Small device (Smartphones, 768px less) */
 @media(max-width: $screen-xs-max)
+	.banner
+		.title
+			h1 
+				font-size 2em
 	.opendrive
 		height 75em
 	.telematic
+		.tomtom-img
+			width 20em
 		.row
 			.features
 				margin-top 5em
@@ -79,6 +85,10 @@ $nav-height-lg = 6em
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: $screen-lg-min)
+	.banner
+			.title
+				h1 
+					font-size 5em
 	section.gps-container
 			.gps
 				img
